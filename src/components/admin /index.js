@@ -1,5 +1,5 @@
 import React from "react";
-import { db, functions } from "../firebase.js";
+import { db, functions } from "../../firebase.js";
 
 const Admin = () => {
   const [users, setUsers] = React.useState([]);
